@@ -13,7 +13,7 @@ The provided dataset consists of the following tables:
 - kf_product
   
 ### 2. Make Analysis Table
-The following are the columns that are mandatory in the table:
+Here are the columns contained in the table:
 - transaction_id:transaction id code,
 - date: transaction date,
 - branch_id: Kimia Farma branch id code,
@@ -26,18 +26,13 @@ The following are the columns that are mandatory in the table:
 - product_name: medicine name,
 - actual_price: medicine price,
 - discount_percentage:  percentage discount given on medicine,
-- persentase_gross_laba: percentage of profit that should be  received from the medicine with the following conditions:
- ■ Price <= Rp 50,000 -> 10% profit
- ■ Price > Rp 50,000 - 100,000 -> 15% profit
- ■ Price > Rp 100,000 - 300,000 -> 20% profit
- ■ Price > Rp 300,000 - 500,000 -> 25% profit
- ■ Price > Rp 500,000 -> 30% profit,
+- persentase_gross_laba: percentage of profit that should be  received from the medicine with some conditions, 
 - nett_sales: the price after discount,
 - nett_profit: profit earned by Kimia Farma,
 - rating_transaksi: consumer rating of the transaction made.
 
 <details>
-  <summary> Klik untuk melihat Query </summary>
+  <summary> Click to View Query </summary>
     <br>
     
 ```sql
