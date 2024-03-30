@@ -77,3 +77,5 @@ LEFT JOIN kf_final_transaction as ft
 ```
 
 ### 3.  Create Dashboard Performance Analytics Kimia Farma Business Year 2020-2023
+![Screenshot 2024-03-30 231026](https://github.com/zahrasm13/PBI_KimiaFarma/assets/165493458/0a016775-cc05-4d5c-8558-26b67410cadc)
+
